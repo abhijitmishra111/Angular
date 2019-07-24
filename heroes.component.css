@@ -1,0 +1,28 @@
+.heroes {
+  
+    list-style-type: none;
+    width: 13rem;
+    
+  }
+  .heroes li {
+    position: relative;
+    background-color: #b1a2a2;
+    margin: 1.5rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    
+  }
+  .heroes li:hover {
+    color: #4d6672;
+    background-color: #8a8383;
+    left: .1em;
+  }
+
+  .hero-id {
+    display: inline-block;
+    color: white;
+    background-color: #2f3c4b;
+    position: relative;
+    height: 2rem;
+    margin-right: 2rem;
+  }

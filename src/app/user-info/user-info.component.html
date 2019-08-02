@@ -1,0 +1,21 @@
+<div class="userinfo">
+  <span class="avatar"></span>
+  <p>{{parentData}}</p>
+  <div class="dropdown" *ngIf="isDropdownVisible">
+    <select>
+      <option >available</option>
+      <option >Offline</option>
+      <option >busy</option>
+      <option >away</option>
+    </select>
+  </div>
+</div>
+<div class="search">
+  <h5 (click)="isDropdownVisible= !isDropdownVisible">{{searchanyone}}</h5>
+</div>
+
+<table>
+  <tr *ngFor="let record of records">
+    <td>{{record.name}}</td>
+  </tr>
+</table>

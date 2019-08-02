@@ -1,0 +1,32 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.userinfo{
+    top:2rem;
+    display:flex;
+    height: 5rem;
+    background-color: #8080801c;
+}
+.avatar {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #cfc7c7;
+    display: inline-block;
+    border-radius: 50%;
+    margin-top:1rem;
+  }
+  p{
+    margin-top: 1.5rem;
+    font-size: 0.8rem;
+  }
+  .dropdown{
+    margin-top: 3rem;
+    margin-left: -3rem;
+  }
+  h5{
+    display: flex;
+    margin-top: 0rem;
+    padding: 0.5rem;
+    height: 0rem;
+  }
